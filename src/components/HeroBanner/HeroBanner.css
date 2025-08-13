@@ -1,0 +1,62 @@
+.HeroBanner {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(6.4%, 1fr));
+  grid-template-rows: 1fr;
+}
+
+.HeroBanner__image-container {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+.HeroBanner__image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.HeroBanner__content {
+  grid-column: 1 / 9;
+  grid-row: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1;
+  margin: auto;
+  width: 60%;
+}
+
+.HeroBanner__title h1 {
+  font-size: var(--font-size-40px);
+  margin-bottom: var(--spacing-16px);
+  line-height: normal;
+}
+
+.HeroBanner__subtitle p {
+  font-size: var(--font-size-16px);
+  margin-bottom: var(--spacing-32px);
+  line-height: normal;
+  font-weight: 600;
+}
+
+
+@media (max-width: 991px) {
+  .HeroBanner {
+    grid-template-columns: 1fr;
+  }
+
+  .HeroBanner__content {
+    padding: var(--spacing-20px);
+    margin: initial;
+  }
+}
+
+@media (max-width: 768px) {
+  .HeroBanner__content {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+  }
+}
+

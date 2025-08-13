@@ -1,0 +1,63 @@
+:root {
+  --color-text: #232323;
+  --color-bg: #000;
+  --color-text-link: #fff;
+
+  --font-main: "Noto Sans", sans-serif;
+
+  --spacing-10px: 0.625rem;
+  --spacing-12px: 0.75rem;
+  --spacing-16px: 1rem;
+  --spacing-20px: 1.25rem;
+  --spacing-24px: 1.5rem;
+  --spacing-32px: 2rem;
+
+  --font-size-10px: 0.625rem;
+  --font-size-12px: 0.75rem;
+  --font-size-14px: 0.875rem;
+  --font-size-16px: 1rem;
+  --font-size-20px: 1.25rem;
+  --font-size-24px: 1.5rem;
+  --font-size-32px: 2rem;
+  --font-size-40px: 2.5rem;
+  --font-size-48px: 3rem;
+  --font-size-56px: 3.5rem;
+  --font-size-64px: 4rem;
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-main);
+  color: var(--color-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-main);
+}
+
+#root {
+  isolation: isolate;
+}
