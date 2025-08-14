@@ -1,0 +1,92 @@
+[
+  {
+    "brand": "Benefit Cosmetics",
+    "name": "The POREfessional Blurring & Smoothing Foundation with Niacinamide",
+    "rating": 4.3,
+    "reviews": 3051,
+    "price": 47.00,
+    "free_product": true,
+    "discount": 0,
+    "image_url": "https://media.ulta.com/i/ulta/2640557?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+  },
+  {
+    "brand": "Charlotte Tilbury",
+    "name": "Unreal Lips Healthy Glow Nectar Oil",
+    "rating": 5,
+    "reviews": 141,
+    "price": 25.00,
+    "free_product": false,
+    "discount": 0,
+    "image_url": "https://media.ulta.com/i/ulta/2641372?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+  },
+  {
+    "brand": "FENTY BEAUTY by Rihanna",
+    "name": "Gloss Bomb Stix High-Shimmer Gloss Stick",
+    "rating": 5,
+    "reviews": 960,
+    "price": 25.00,
+    "free_product": true, 
+    "discount": 0,
+    "image_url": "https://media.ulta.com/i/ulta/2643936?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+  },
+  {
+    "brand": "Touchland",
+    "name": "Crocs x Touchland Hand Sanitizer Mist Case",
+    "rating": 5,
+    "reviews": 5,
+    "price": 20.00,
+    "free_product": false,
+    "discount": 0,
+    "image_url": "https://media.ulta.com/i/ulta/2642358?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+  },
+  {
+    "brand": "Tarte",
+    "name": "Go With The Faux Freckle Stamp",
+    "rating": 4,
+    "reviews": 14,
+    "price": 26.00,
+    "free_product": false,
+    "discount": 0,
+    "image_url": "https://media.ulta.com/i/ulta/2640408?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+  },
+  {
+    "brand": "e.l.f. Cosmetics",
+    "name": "Jelly Pop Dew Primer",
+    "rating": 4,
+    "reviews": 607,
+    "price": 10.00,
+    "free_product": false,
+    "discount": 0,
+    "image_url": "https://media.ulta.com/i/ulta/2614066?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+  },
+  {
+    "brand": "Dyson",
+    "name": "Special Edition Airwrap i.d. Multi-styler Straight+Wavy",
+    "rating": null,
+    "reviews": null,
+    "price": 599.99,
+    "free_product": false,
+    "discount": 20,
+    "image_url": "https://media.ulta.com/i/ulta/2644209?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+  },
+  {
+    "brand": "STARFACE",
+    "name": "Hydro-Star Pimple Patches + Compact",
+    "rating": 5,
+    "reviews": 1107,
+    "price": 14.99,
+    "free_product": false,
+    "discount": 0,
+    "image_url": "https://media.ulta.com/i/ulta/2640369?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+  },
+  {
+    "brand": "Charlotte Tilbury",
+    "name": "Unreal Lip + Cheek Glow Blush Stick",
+    "rating": 5,
+    "reviews": 81,
+    "price": 42,
+    "free_product": false,
+    "discount": 0,
+    "image_url": "https://media.ulta.com/i/ulta/2641368?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+  }
+]

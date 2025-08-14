@@ -1,10 +1,13 @@
 :root {
-  --color-text: #232323;
-  --color-bg: #000;
+  --color-text-primary: #232323;
+  --color-text-secondary: #6e6e6e;
+  --color-bg-primary: #000;
+  --color-bg-secondary: #f6f6f6;
   --color-text-link: #fff;
 
   --font-main: "Noto Sans", sans-serif;
 
+  --spacing-5px: 0.312rem;
   --spacing-10px: 0.625rem;
   --spacing-12px: 0.75rem;
   --spacing-16px: 1rem;
@@ -40,7 +43,7 @@ html {
 body {
   min-height: 100vh;
   font-family: var(--font-main);
-  color: var(--color-text);
+  color: var(--color-text-primary);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }

@@ -9,19 +9,20 @@
   text-transform: initial;
   letter-spacing: 0.5px;
   text-decoration: none;
+  width: max-content;
 }
 .btn-primary {
-  background-color: var(--color-bg);
+  background-color: var(--color-bg-primary);
   color: var(--color-text-link);
-  border: 1px solid var(--color-bg);
+  border: 1px solid var(--color-bg-primary);
 }
 .btn a {
   color: var(--color-text-link);
 }
 .btn:hover {
   background-color: var(--color-text-link);
-  color: var(--color-bg);
+  color: var(--color-bg-primary);
 }
 .btn:hover a {
-  color: var(--color-bg);
+  color: var(--color-bg-primary);
 }

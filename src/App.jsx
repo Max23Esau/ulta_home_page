@@ -1,4 +1,5 @@
 import HeroBanner from "./components/HeroBanner/HeroBanner";
+import ProductGrid from "./components/ProductGrid/ProductGrid";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       link="https://www.google.com/"
       image="https://media.ulta.com/i/ulta/SPRK_WK2725_Hero_XL?w=2000&$background-defaultLight$&fmt=auto"
     />
+    <ProductGrid title="Your next fave is only at Ulta" url="https://www.ulta.com/" textLink="Shop all" />
     </>
   )
 }
