@@ -3,6 +3,8 @@
   grid-template-columns: repeat(12, minmax(6.4%, 1fr));
   grid-template-rows: 1fr;
   margin-bottom: var(--spacing-32px);
+  margin-left: var(--font-size-40px);
+  margin-right: var(--font-size-40px);
 }
 
 .HeroBanner__image-container {

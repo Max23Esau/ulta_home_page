@@ -42,6 +42,7 @@ const ProductGrid = ({ title, textLink, url }) => {
         <div className="productGrid__cards-container">
           {/* <div className="productGrid__cards-items"> */}
             <Swiper
+              cssMode={true}
               slidesPerView={4}
               spaceBetween={16}
               grabCursor={true}
