@@ -1,4 +1,5 @@
 .productGrid {
+  margin-bottom: var(--spacing-32px);
   margin-left: var(--font-size-40px);
   margin-right: var(--font-size-40px);
 }
@@ -104,5 +105,6 @@
   }
   .productGrid {
     margin: 0 var(--spacing-20px);
+    margin-bottom: var(--spacing-32px);
   }
 }

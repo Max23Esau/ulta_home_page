@@ -40,7 +40,6 @@ const ProductGrid = ({ title, textLink, url }) => {
           </div>
         </div>
         <div className="productGrid__cards-container">
-          {/* <div className="productGrid__cards-items"> */}
             <Swiper
               cssMode={true}
               slidesPerView={4}
@@ -79,7 +78,6 @@ const ProductGrid = ({ title, textLink, url }) => {
               </SwiperSlide>
               ))}
             </Swiper>
-          {/* </div> */}
         </div>
       </div>
     </section>

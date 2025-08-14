@@ -17,12 +17,12 @@
 }
 .productCard__brand, .productCard__name, .productCard__rating, .productCard__price  {
   font-size: var(--font-size-14px);
-  line-height: var(--font-size-16px);
+  line-height: var(--font-size-20px);
   margin-bottom: var(--spacing-5px);
 }
 .productCard__name {
   display: -webkit-box;        
-  -webkit-line-clamp: 2;       
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;  
 }

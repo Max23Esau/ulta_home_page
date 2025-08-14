@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Makeup",
+      "url_image": "https://media.ulta.com/i/ulta/PCP_WK1625_Article_MakeupOnSale?w=1200&$background-defaultLight$&fmt=auto",
+      "link": "https://www.ulta.com/shop/makeup",
+      "id": "081"
+    },
+    {
+      "name": "Skin care",
+      "url_image": "https://media.ulta.com/i/ulta/PCP_WK2725_Article_SkincareGeneric?w=800&$background-xsubtleLight$&fmt=auto",
+      "link": "https://www.ulta.com/shop/skin-care",
+      "id": "082"
+    },
+    {
+      "name": "Hair care",
+      "url_image": "https://media.ulta.com/i/ulta/PCP_WK2725_Article_HairTrend?w=800&$background-xsubtleLight$&fmt=auto",
+      "link": "https://www.ulta.com/shop/hair",
+      "id": "083"
+    }
+]
