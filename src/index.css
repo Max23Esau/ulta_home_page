@@ -14,6 +14,7 @@
   --spacing-20px: 1.25rem;
   --spacing-24px: 1.5rem;
   --spacing-32px: 2rem;
+  --spacing-40px: 2.5rem;
 
   --font-size-10px: 0.625rem;
   --font-size-12px: 0.75rem;
@@ -64,3 +65,4 @@ p, h1, h2, h3, h4, h5, h6 {
 #root {
   isolation: isolate;
 }
+

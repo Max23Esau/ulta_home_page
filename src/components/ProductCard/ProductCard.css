@@ -1,8 +1,8 @@
 .productCard {
-  width: 330px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
 .productCard__image-container {
