@@ -14,7 +14,7 @@ const GridProduct = ({ title, textLink, url }) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("../../../public/data/featuredProducts.json")
+    fetch("/public/data/featuredProducts.json")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.error("Error loading products:", err));
