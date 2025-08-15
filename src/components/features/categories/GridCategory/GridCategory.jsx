@@ -7,7 +7,7 @@ const GridCategory = ({title, bgColor}) => {
   const [categories, setcategories] = useState([]);
 
   useEffect(() => {
-    fetch("/public/data/listCategories.json")
+    fetch("/data/listCategories.json")
       .then((res) => res.json())
       .then((data) => setcategories(data))
       .catch((err) => console.error("Error loading categories:", err));
