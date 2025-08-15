@@ -1,13 +1,11 @@
 import './HeroBanner.css'
-import Button from '../Button/Button'
+import Button from '../../../ui/Button/Button'
 
 const HeroSection = ({title, description, image, link}) => {
   return (
     <section className="HeroBanner">
       <a href={link} className='HeroBanner__image-container' target="_blank" rel="noopener noreferrer">
-        <div className="">
-          <img src={image} alt="" />
-        </div>
+          <img src={image} alt="" fetchpriority="high" />
       </a>
       <div className="HeroBanner__content">
         <div className="HeroBanner__title">

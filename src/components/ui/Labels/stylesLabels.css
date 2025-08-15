@@ -1,0 +1,26 @@
+.PorcentageDiscount {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  font-weight: 600;
+  background-color: rgb(253, 241, 243);
+  color: rgb(204, 0, 88);
+  text-transform: initial;
+  text-align: left;
+  width: max-content;
+  font-size: var(--font-size-12px);
+  padding: var(--spacing-5px);
+  margin: 0 var(--spacing-5px) var(--spacing-5px) 0;
+}
+
+.FreeGift{
+background-color: rgb(253, 241, 243);
+  color: rgb(204, 0, 88);
+  text-transform: initial;
+  font-size: var(--font-size-10px);
+  text-align: left;
+  width: max-content;
+  padding: 0 var(--spacing-5px);
+  margin: 0 var(--spacing-5px) var(--spacing-5px) 0;
+  font-weight: 600;
+}

@@ -7,7 +7,8 @@
     "price": 47.00,
     "free_product": true,
     "discount": 0,
-    "image_url": "https://media.ulta.com/i/ulta/2640557?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+    "image_url": "https://media.ulta.com/i/ulta/2640557?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto",
+    "link_product": "https://www.ulta.com/p/porefessional-blurring-smoothing-foundation-with-niacinamide-pimprod2052738?sku=2640542"
   },
   {
     "brand": "Charlotte Tilbury",
@@ -17,7 +18,8 @@
     "price": 25.00,
     "free_product": false,
     "discount": 0,
-    "image_url": "https://media.ulta.com/i/ulta/2641372?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+    "image_url": "https://media.ulta.com/i/ulta/2641372?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto",
+    "link_product": "https://www.ulta.com/p/unreal-lips-healthy-glow-nectar-oil-pimprod2053118?sku=2641375"
   },
   {
     "brand": "FENTY BEAUTY by Rihanna",
@@ -27,7 +29,8 @@
     "price": 25.00,
     "free_product": true, 
     "discount": 0,
-    "image_url": "https://media.ulta.com/i/ulta/2643936?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+    "image_url": "https://media.ulta.com/i/ulta/2643936?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto",
+    "link_product": "https://www.ulta.com/p/gloss-bomb-stix-high-shimmer-gloss-stick-pimprod2050518?sku=2643936"
   },
   {
     "brand": "Touchland",
@@ -37,7 +40,8 @@
     "price": 20.00,
     "free_product": false,
     "discount": 0,
-    "image_url": "https://media.ulta.com/i/ulta/2642358?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+    "image_url": "https://media.ulta.com/i/ulta/2642358?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto",
+    "link_product": "https://www.ulta.com/p/crocs-x-touchland-hand-sanitizer-mist-case-pimprod2053279?sku=2642358"
   },
   {
     "brand": "Tarte",
@@ -47,7 +51,8 @@
     "price": 26.00,
     "free_product": false,
     "discount": 0,
-    "image_url": "https://media.ulta.com/i/ulta/2640408?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+    "image_url": "https://media.ulta.com/i/ulta/2640408?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto",
+    "link_product": "https://www.ulta.com/p/go-with-faux-freckle-stamp-pimprod2052622?sku=2640408"
   },
   {
     "brand": "e.l.f. Cosmetics",
@@ -57,7 +62,8 @@
     "price": 10.00,
     "free_product": false,
     "discount": 0,
-    "image_url": "https://media.ulta.com/i/ulta/2614066?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+    "image_url": "https://media.ulta.com/i/ulta/2614066?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto",
+    "link_product": "https://www.ulta.com/p/jelly-pop-dew-primer-pimprod2040698?sku=2614066"
   },
   {
     "brand": "Dyson",
@@ -67,7 +73,8 @@
     "price": 599.99,
     "free_product": false,
     "discount": 20,
-    "image_url": "https://media.ulta.com/i/ulta/2644209?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+    "image_url": "https://media.ulta.com/i/ulta/2644209?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto",
+    "link_product": "https://www.ulta.com/p/special-edition-airwrap-id-multi-styler-straightwavy-pimprod2053390?sku=2644209"
   },
   {
     "brand": "STARFACE",
@@ -77,7 +84,8 @@
     "price": 14.99,
     "free_product": false,
     "discount": 0,
-    "image_url": "https://media.ulta.com/i/ulta/2640369?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+    "image_url": "https://media.ulta.com/i/ulta/2640369?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto",
+    "link_product": "https://www.ulta.com/p/hydro-star-pimple-patches-compact-pimprod2048680?sku=2640369"
   },
   {
     "brand": "Charlotte Tilbury",
@@ -87,6 +95,7 @@
     "price": 42,
     "free_product": false,
     "discount": 0,
-    "image_url": "https://media.ulta.com/i/ulta/2641368?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto"
+    "image_url": "https://media.ulta.com/i/ulta/2641368?w=600&$ProductCardNeutralBGLight$&h=600&fmt=auto",
+    "link_product": "https://www.ulta.com/p/unreal-lip-cheek-glow-blush-stick-pimprod2053038?sku=2641368"
   }
 ]

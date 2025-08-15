@@ -2,16 +2,14 @@ import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Keyboard } from 'swiper/modules';
 
-import ProductCard from '../ProductCard/ProductCard';
+import CardProduct from '../../products/CardProduct/CardProduct';
 
-import './ProductGrid.css'
+import './GridProduct.css'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-
-
-const ProductGrid = ({ title, textLink, url }) => {
+const GridProduct = ({ title, textLink, url }) => {
 
   const [products, setProducts] = useState([]);
 
@@ -24,14 +22,14 @@ const ProductGrid = ({ title, textLink, url }) => {
 
 
   return (
-    <section className="productGrid">
-      <div className="productGrid__container">
-        <div className="productGrid__container-heading">
-          <div className="productGrid__container-deails">
+    <section className="GridProduct">
+      <div className="GridProduct__container">
+        <div className="GridProduct__container-heading">
+          <div className="GridProduct__container-deails">
             <h2 className="">{title}</h2>
             <a href={url} target="_blank" rel="noopener noreferrer">{textLink}</a>
           </div>
-          <div className="productGrid__container-total-items">
+          <div className="GridProduct__container-total-items">
             <p className="">{products.length} items</p>
             <div className="swiper-nav-buttons">
               <button className="swiper-button-prev-custom"></button>
@@ -39,10 +37,11 @@ const ProductGrid = ({ title, textLink, url }) => {
             </div>
           </div>
         </div>
-        <div className="productGrid__cards-container">
+        <div className="GridProduct__cards-container">
             <Swiper
               cssMode={true}
               slidesPerView={4}
+              slidesPerGroup={4}
               spaceBetween={16}
               grabCursor={true}
               navigation={{
@@ -74,7 +73,7 @@ const ProductGrid = ({ title, textLink, url }) => {
             >
               {products.map((product, index) => (
               <SwiperSlide>
-                <ProductCard key={index} product={product} />
+                <CardProduct key={index} product={product} />
               </SwiperSlide>
               ))}
             </Swiper>
@@ -85,4 +84,4 @@ const ProductGrid = ({ title, textLink, url }) => {
 };
 
 
-export default ProductGrid;
+export default GridProduct;
