@@ -17,7 +17,7 @@ const CardProduct = ({ product }) => {
 
   return ( 
     <div className="CardProduct">
-      <a href={product.link_product} className="CardProduct__link">
+      <a href={product.link_product} className="CardProduct__link" target="_blank" rel="noopener noreferrer">
       <div className="CardProduct__image">
         <div className="CardProduct__image-container">
           { product.image_url && <img src={product.image_url} loading="lazy" alt={product.name} /> }

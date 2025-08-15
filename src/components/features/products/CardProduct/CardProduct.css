@@ -10,6 +10,9 @@
 .CardProduct__link:hover .CardProduct__name {
   text-decoration: underline;
 }
+.CardProduct__link:hover .CardProduct__image-container img {
+  opacity: .85;
+}
 
 .CardProduct__image-container {
   aspect-ratio: 1;
@@ -45,6 +48,16 @@
   font-weight: 600;
   color: var(--color-text-secondary);
 } 
+.star {
+  color: var(--color-text-secondary);
+  opacity: .3;
+  font-size: 14px;
+}
+
+.star.filled {
+  color: var(--color-bg-primary);
+  opacity: 1;
+}
 
 .CardProduct__price {
   font-weight: 600;
